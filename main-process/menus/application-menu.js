@@ -23,7 +23,12 @@ let template = [{
   }, {
     label: 'Paste',
     accelerator: 'CmdOrCtrl+V',
-    role: 'paste'
+    role: 'paste',
+    enabled: false,
+  }, {
+    label: 'Paste (no role)',
+    accelerator: 'CmdOrCtrl+V',
+    enabled: false,
   }, {
     label: 'Select All',
     accelerator: 'CmdOrCtrl+A',
