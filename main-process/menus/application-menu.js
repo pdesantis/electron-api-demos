@@ -21,12 +21,12 @@ let template = [{
     accelerator: 'CmdOrCtrl+C',
     role: 'copy'
   }, {
-    label: 'Paste',
+    label: 'Paste (should be disabled)',
     accelerator: 'CmdOrCtrl+V',
     role: 'paste',
     enabled: false,
   }, {
-    label: 'Paste (no role)',
+    label: 'Paste (no role, should be disabled)',
     enabled: false,
   }, {
     label: 'Select All',
